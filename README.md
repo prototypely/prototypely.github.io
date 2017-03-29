@@ -1,3 +1,3 @@
-# prototypely.github.io
+# Projects by Prototypely
 
-Mageflow website
+[Mageflow](/mageflow)
