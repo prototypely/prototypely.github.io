@@ -1,0 +1,86 @@
+/*
+Theme Name: MageFlow
+*/
+
+.hero-content__description {
+    font-size: 1.35rem;
+    font-weight: 200;
+}
+
+.hero-content__description a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px dotted #eee;
+}
+
+@media screen and (min-width: 41.25em) {
+    .hero-content__description {
+        max-width: 540px;
+    }
+}
+
+.section--second p {
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 47.5em) {
+    .section--second .col-group--3 .col {
+        min-height: 300px;
+    }
+}
+
+@media screen and (min-width: 32.5em) {
+    .section--third .section-wrap {
+        padding-top: 40px;
+    }
+}
+
+.section--third li h3 {
+    font-size: 1.4rem;
+}
+
+.section--fifth .feature-list a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px dotted #fff;
+}
+
+.global-footer .rights {
+    margin-top: 0px;
+}
+
+.global-footer .footer-logo {
+    top: 30px;
+    margin: 0px auto 0;
+}
+
+#password {
+    background-image: url('/img/pwstrengthicon.png');
+    background-position: 22% bottom;
+    background-repeat: no-repeat;
+}
+
+/**
+ * Validation
+ */
+.invalid {
+    border: 1px solid red !important;
+}
+
+#signupform .submit-wrapper input {
+    width: 45%;
+    float: left;
+}
+
+#signupform .submit-wrapper input[name=login] {
+    float: right;
+}
+
+#signupform .submit-wrapper span.center {
+    margin: 0px auto;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    display: block;
+    background: none !important;
+}
