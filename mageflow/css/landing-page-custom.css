@@ -55,7 +55,7 @@ Theme Name: MageFlow
 }
 
 #password {
-    background-image: url('/img/pwstrengthicon.png');
+    background-image: url('../img/pwstrengthicon.png');
     background-position: 22% bottom;
     background-repeat: no-repeat;
 }
